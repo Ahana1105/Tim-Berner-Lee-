@@ -86,20 +86,19 @@ p {
 .menu {
     list-style : none;
     font-family : fantasy;
-    position : absolute;
-    top : 10px;
-    right : 30px;
+    position : fixed;
+    top : 0px;
     z-index : 10;
     cursor : pointer;
+    background  : white;
+    width:100%;
 }
 
 .links {
-    float : left;
     color : darkblue;
-    padding-top: 10px;
-    padding-bottom : 10px;
-    padding-left : 9px;
-    padding-right : 9px;
+ display:inline;
+    padding-left : 33px;
+    padding-right : 25px;
  font-size : 35px;
 }
 
@@ -107,4 +106,30 @@ p {
 background-color : palevioletred;
     color : firebrick;
     font-size : 38px;
+    text-decoration : underline;
+}
+
+a {
+    text-decoration : none;
+    color : crimson;
+    text-shadow : 2px 2px gainsboro;
+}
+
+#writings a {
+    text-shadow : none !important;
+    text-decoration: underline!important;
+    color  : blue!important;
+}
+
+#contact {
+    background-color : lemonchiffon;
+}
+
+.contact__1 a {
+    Color : ruby;
+        text-shadow : none;
+}
+
+.contact__1 h3{
+    display : inline;
 }
